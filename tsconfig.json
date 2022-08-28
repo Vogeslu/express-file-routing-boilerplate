@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "useUnknownInCatchVariables": false,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "paths": {
+      "@services/*": ["services/*"],
+      "@models/*": ["models/*"],
+      "@utilities/*": ["utilities/*"],
+      "@/*": ["/*"]
+    }
+  },
+  "include": ["./src/**/*"]
+}
